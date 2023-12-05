@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="row m-5 containerinfo" *ngFor="let trains of train">
+    <div class="col text-center">
+      <div>
+        Current Destination
+      </div>
+      <div>
+        {{trains.CurrentLocation}}
+      </div>
+    </div>
+    <div class="col-6 d-flex justify-content-center align-items-center text-center">
+      <h5>
+        {{trains.PublicMessage}}
+      </h5>
+    </div>
+    <div class="col text-center">
+      <div>Expected Arrival</div>
+      <div>{{trains.ExpArrival}}</div>
+    </div>
+  </div>
+</div>
