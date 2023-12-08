@@ -33,27 +33,6 @@ export class HomepageComponent implements OnInit {
     ngOnInit() {
         this.gettrains();
     }
-
-  // private gettrains(): void {
-  //   this.traindataservice
-  //     .gettrain()
-  //     .then(foundtrains => {
-  //       this.train = foundtrains;
-  //       console.log("Traindata", this.train);
-  //     })
-  // }
-
-
-
-  // train : Train = {
-  //   _id: "dasdsa",
-  //   CurrentLocation: "Cork",
-  //   PublicMessage: "Cork to Mallow",
-  //   ExpArrival: "23:01"
-  // };
-
-
-  // protected readonly Train = Train;
 }
 
 

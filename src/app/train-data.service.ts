@@ -8,7 +8,9 @@ export class TrainDataService {
   constructor(private http: HttpClient) { }
 
   // private apiBaseUrl = 'https://triancheck.onrender.com/api/';
-    private apiBaseUrl = 'https://trainapi-166m.onrender.com/api'
+  //   private apiBaseUrl = 'https://trainapi-166m.onrender.com/api'
+  // private apiBaseUrl = 'https://trainapi2.onrender.com/api';
+  private apiBaseUrl = 'https://trainreslogin.onrender.com/api';
   public gettrain(): Promise<Train[]> {
     const url: string = `${this.apiBaseUrl}/traininfo`;
       console.log('Request URL:', url);
